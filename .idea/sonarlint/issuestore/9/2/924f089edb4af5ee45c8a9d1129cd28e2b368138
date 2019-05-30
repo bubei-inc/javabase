@@ -1,0 +1,9 @@
+
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(•äãéøÿÿÿÿ8Í†»”-
+1squid:S1220""Move this file to a named package.
+Ysquid:UselessImportCheck")Remove this unused import 'service.Test'.(Î»ÊÅùÿÿÿÿ8ˆ¨‚¹”-
+]squid:UselessImportCheck"3Remove this unused import 'service.TeatThreadLock'.(Ã£‹~8ˆ¨‚¹”-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘™±]8áÀƒ»”-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(»»¹Ùýÿÿÿÿ8Í†»”-
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(”³í68þ‹˜¬«-

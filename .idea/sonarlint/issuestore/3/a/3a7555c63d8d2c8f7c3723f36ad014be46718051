@@ -1,0 +1,6 @@
+
+Usquid:S1611"2Remove the parentheses around the "form" parameter(»¦Øßÿÿÿÿÿ8Îïˆ‰ -
+Osquid:S1612",Replace this lambda with a method reference.(»¦Øßÿÿÿÿÿ8Îïˆ‰ -
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÃËÑ…8 í‰‰ -
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–é³ð

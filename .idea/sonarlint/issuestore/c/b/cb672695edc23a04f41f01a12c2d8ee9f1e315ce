@@ -1,0 +1,9 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(²ˆùáúÿÿÿÿ8ÐÇ¦û«-
+½%squid:RedundantThrowsDeclarationCheck"„Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.(»¥­ê8ŠÝµû«-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ÝÆÂ8Ø»£û«-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ªÇÒŸþÿÿÿÿ8º•ºû«-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÑÐ©¬8ŠÝµû«-
+°%squid:RedundantThrowsDeclarationCheck"xRemove the declaration of thrown exception 'java.lang.NoSuchMethodException', as it cannot be thrown from method's body.(»¥­ê8º•ºû«-

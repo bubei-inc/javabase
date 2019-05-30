@@ -1,0 +1,14 @@
+
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®úõ÷8Åà²ú«-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(©ô–À8¥ï°ú«-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(à¿öÑúÿÿÿÿ8¥ï°ú«-
+Nsquid:S1481"+Remove this unused "method" local variable.(žÇšÖýÿÿÿÿ8¥ï°ú«-
+]squid:S1854":Remove this useless assignment to local variable "method".(žÇšÖýÿÿÿÿ8¥ï°ú«-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(à¿öÑúÿÿÿÿ8¥ï°ú«-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Àï›ï8¥ï°ú«-
+¶%squid:RedundantThrowsDeclarationCheck"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(÷íÞ×üÿÿÿÿ8Åà²ú«-
+¶%squid:RedundantThrowsDeclarationCheck"yRemove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.(÷íÞ×üÿÿÿÿ8Åà²ú«-

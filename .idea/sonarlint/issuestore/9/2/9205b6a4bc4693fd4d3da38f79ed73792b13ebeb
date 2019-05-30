@@ -1,0 +1,8 @@
+
+[
+squid:S106""9Replace this use of System.out or System.err by a logger.(ùîÈèøÿÿÿÿ8¨Éõ¬«-
+_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(•Õ÷8¶¤é¬«-
+_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(•Õ÷8ÁÃÏ¬«-
+ssquid:S2095"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(–€‰ùÿÿÿÿ8ÃÌà¬«-
+msquid:S2095 "OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ö·Ï®8©´ï¬«-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ôùÈé8™¹¹¬«-

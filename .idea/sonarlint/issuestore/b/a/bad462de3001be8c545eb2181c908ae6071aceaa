@@ -1,0 +1,14 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(°×ëÃ8Ø ¿¤-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8¢íÑ¿¤-
+[squid:S1226!">Introduce a new variable instead of reusing the parameter "a".(ÿ¾›88ÊœĞ¿¤-
+]squid:S1854":Remove this useless assignment to local variable "yuzhou".(ÃÜäîıÿÿÿÿ8æ©Ô¿¤-
+_squid:S1226"AIntroduce a new variable instead of reusing the parameter "name".(¤Şû¡8²‹¢¿¤-
+Vsquid:S1854"8Remove this useless assignment to local variable "name".(¤Şû¡8²‹¢¿¤-
+Rsquid:S1854!"5Remove this useless assignment to local variable "a".(ÿ¾›88ÊœĞ¿¤-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(”åÔ°ûÿÿÿÿ8éğ¿¤-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(­–šÖ8ÖçÕ¿¤-

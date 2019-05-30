@@ -1,0 +1,8 @@
+
+Osquid:S1612",Replace this lambda with a method reference.(ÿáŒ¡úÿÿÿÿ8Ëùäª -
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿ã•ºÿÿÿÿÿ8Éù÷ª -
+tsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¿ã•ºÿÿÿÿÿ8ÃÙþª -
+8squid:S2275"Not enough arguments.(¿ã•ºÿÿÿÿÿ8ÃÙþª -
+gsquid:UselessImportCheck"7Remove this unused import 'java.util.stream.Collector'.(ß‹ÎÓøÿÿÿÿ8•þÞª -
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤ÿ¸¦

@@ -1,0 +1,6 @@
+
+‹ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8è±˜“-
+Hsquid:S1068"%Remove this unused "i" private field.(Ğê¹¹ÿÿÿÿÿ8è±˜“-
+bsquid:HiddenFieldCheck"4Rename "i" which hides the field declared at line 4.(Å‚ÉÎúÿÿÿÿ8¤§±˜“-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(¼Ï†-8è±˜“-
