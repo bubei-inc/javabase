@@ -11,4 +11,70 @@ java io 流分为两个方向  输入输出  （参照物） 应用程序
 Java I/O 提供了一套首尾相接的链接机制，形成流管道链接，这种设计模式被称为是Decorator设计模式应用，通过这种流链接可以动态的增加流的功能，而这种功能的增加是通过组合一些流的基本功能而实现的。
 
 
+java.io中最重要的概念是什么  是流（Stream）
+面向流编程，包括输入流输出流  stream不可以同时是输入流和输出流
+java 中的一个流所以最终只可能是其中一个
+
+
+java.nio 中三个核心概念  selector channel buffer  是面向缓冲区的编程  或者说是面向块编程
+
+selector 是一个选择器
+
+channel 是一个通道 指的是可以向buffer中传入数据和读取数据的 类似于java.io中的stream 所有的数据读取都是通过buffer进行的不会直接从channel中写入数据。channel是双向的可以真实的显示系统底层的操作情况。
+
+
+buffer 是数据块一个块内存  底层实现上  是一个数组  数据的读写都是通多buffer实现的   buffer实现了数据的读
+
+除了数组之外  还提供了对数据的结构化访问方式，还可以最总到buffer的读写过程  java的八种基本类型都有各自的对应的buffer类型  比Intbuffer charbuffer
+
+
+
+最后程序 从buffer中读取数据  程序可以将数据写回到buffer中   通过的方法就是flip()
+
+在一个线程中有一个selector selector 选择 channel 每一个channel对应他自己的一个buffer块
+
+java nio 三个比较重要的三个状态属性  capacity limit position
+
+java 中的直接缓冲 和间接缓冲
+
+heapByteBuffer java 对象  heapByteBuffer[] 在内存堆上  是自己数组  实际上 相比较于直接内存  间接的缓冲  会在io操作的时候多一个数据的拷贝工作
+
+DirectByteBuffer 直接内存  同样位于Java内存的堆上面   但是其native方法是在堆外的  通过C 或者C++进行内存分配  malloc
+
+DirectByteBuffer 中存在一个参数存放的是堆外数据的地址address ，可以通过地址直接找到堆外的数据。这边的数据可以直接进行操作  也叫做0拷贝。
+
+MappedByteBuffer直接堆内存进行操作
+
+buffer 的scattering and gathering (分散与聚集)
+
+scattering 将来自一个的channel中的数据  不同（多个）的buffer中  按顺序的 但是需要将每一个buffer写满
+gathering 将buffer中的数据 写到channel中  第一个读完在读剩下的buffer
+可以实现数据的分门别类
+
+
+java nio 中的selector
+//不适用于并发量并不高额系统，线程之间的切换回浪费系统的资源
+ServerSocketChannel创建服务器端
+serverSocketChannel.socket.bind(8899)
+
+while(true) {
+ Socket socket = serverSocketChannel.accept();
+new Thread() {
+run() {
+    socket.getInputStream（）;
+}
+}
+
+
+}
+//客户端
+Socket socket = new Socket("localhost", 8899);
+socket.connect();
+
+
+//Nio传统的io网络编程的缺点
+
+
+
+
 

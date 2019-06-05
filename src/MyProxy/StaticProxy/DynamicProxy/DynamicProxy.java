@@ -20,6 +20,7 @@ public class DynamicProxy {
 
         Person stu = (Person) Proxy.newProxyInstance(teach.getClass().getClassLoader(), teach.getClass().getInterfaces(),(proxy, method, argxs) -> {
             if(method.getName().equals("sayHello")) {
+                System.out.println("this is my test");
                 return method.invoke(teach, argxs);
             }
             System.out.println("test");

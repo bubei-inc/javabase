@@ -1,8 +1,8 @@
 
 [
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ì·ˆÛøÿÿÿÿ8®·ä¼°-
+[
 squid:S106"9Replace this use of System.out or System.err by a logger.(¦¹²©ıÿÿÿÿ8‰ã¼°-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£ñÚ÷úÿÿÿÿ
 Nsquid:S1068
 "+Remove this unused "address" private field.(÷§ùÿÿÿÿ8â™á¼°-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£ñÚ÷úÿÿÿÿ
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ì·ˆÛøÿÿÿÿ8®·ä¼°-

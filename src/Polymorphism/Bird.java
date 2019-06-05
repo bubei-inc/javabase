@@ -13,7 +13,7 @@ public class Bird extends Animal{
         System.out.println("我是鸟我能吃虫子！");
     }
     public void fly() {
-        System.out.println("bird can fly!");
+        System.out.println("bird can Flyable!");
     }
 
     @Override

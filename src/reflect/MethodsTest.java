@@ -1,6 +1,6 @@
 package reflect;
 
-public class MethodsTest {
+public class MethodsTest implements Inter{
     private String address  = "NJ";
 
 
@@ -17,6 +17,7 @@ public class MethodsTest {
         return name;
     }
 
+    @Override
     public void test() {
         System.out.println("this is a test");
     }
