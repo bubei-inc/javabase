@@ -1,3 +1,32 @@
-为什么使用iso-8859-1 不出现乱码  但是为什么有时候又会出现乱码 utf-8 utf-16 utf-32
+为什么使用iso-8859-1 不出现乱码  但是为什么有时候又会出现乱码 utf-8 utf-16 utf-16-le gbk unicode
+存储到磁盘上的文件都有他自己的相关的字符集
 
-解释
+
+Ascii  美国信息交换标准代码 7位表示一个字符  2&7
+
+iso-8858-1 8bit 表示一个字符（byte） 可以表示256位 每一位都可以充分利用
+
+gb-2312 每一个汉字进行编码 使用两个字节来表示一个汉字 但是不可以表示生僻字  之后又有了gbk
+
+最后直接到了gb18030 最全的
+
+台湾地区为 big5
+
+所有的汇总为 unicode 所有的字符可以进行编码  统一的采用了两个字节来表示一个字符
+
+unicode 之后储存的容量比较大 浪费空间 对于西方国家来说  原本可以一个字节的 现在需要两个字节  是对内存的极大的一种浪费 所以这种方法不太适合存储
+
+UTF unicode translation format unicode 是编解码方式 但是 UTF是一种存储方式  UTF是unicode的一种实现方式
+
+utf-16LE (Little endian)
+
+utf-16BE(Big endian)
+
+zero-wide no-break space oxFEFF 这种文件为 BE
+0xFFFE LE
+
+
+UTF-8 一般来说是用三个字节表示一个 汉字  最多可以使用 6个字节来表示
+
+
+BOM(Byte order mark ) 字节序标记  utf-8 不需要使用字节序标记

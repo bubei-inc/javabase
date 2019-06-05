@@ -27,7 +27,7 @@ public class NioCodec {
         FileChannel fileChannelOutput =  outputRandomAccessFile.getChannel();
         MappedByteBuffer mappedByteBuffer = fileChannelInput.map(FileChannel.MapMode.READ_ONLY, 0, fileLength);
 
-        Charset charset = Charset.forName("iso-8859-1");
+        Charset charset = Charset.forName("utf-8");
         CharsetDecoder charsetDecoder = charset.newDecoder();
         CharsetEncoder charsetEncoder = charset.newEncoder();
         CharBuffer charBuffer = charsetDecoder.decode(mappedByteBuffer);
