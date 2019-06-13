@@ -12,7 +12,6 @@ import java.nio.ByteBuffer;
 public class NioReadOnlyBuffer {
     public static void main(String[] args) {
 //        buffer.asReadOnlyBuffer() 只读buffer
-
         ByteBuffer buffer = ByteBuffer.allocate(100);
         buffer.asReadOnlyBuffer();
     }

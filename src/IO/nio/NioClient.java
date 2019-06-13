@@ -72,7 +72,7 @@ public class NioClient {
                     }
                 }
 
-//               代码最后一低昂要清除 selectionKey
+//               代码最后一定要清除 selectionKey
                 selectionKeys.clear();
             }
 

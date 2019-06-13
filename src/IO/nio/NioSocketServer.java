@@ -32,21 +32,23 @@ public class NioSocketServer {
     public static void main(String[] args) throws IOException {
 
 
-//        服务器端保存channel才可以找到客户端的相关信息
+//        服务器端 需要保存channel才可以找到客户端的相关信息
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         serverSocketChannel.configureBlocking(false);
         ServerSocket serverSocket = serverSocketChannel.socket();
         serverSocket.bind(new InetSocketAddress(8899));
 
 //       创建selector方法
-        Selector selector = Selector.open();
-        serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
+        Selector selector = Selector.open();serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
+
 //        处理代码
         while(true) {
             try{
-//              首先需要使用selecto.select()获取相关的阻塞
+//                首先需要使用selecto.select()获取相关的阻塞
                 selector.select();
                 Set<SelectionKey> selectionKeySet = selector.selectedKeys();
+
+
                 selectionKeySet.forEach(selectionKey -> {
                     final SocketChannel client;
                     try{

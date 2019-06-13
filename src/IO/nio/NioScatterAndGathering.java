@@ -56,6 +56,6 @@ public class NioScatterAndGathering {
 
         }
 
-
+//scattering  and gathering 类似于netty中解决tcp粘包问题
     }
 }
